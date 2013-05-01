@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "rubia-epubgen"
   gem.require_paths = ["lib"]
   gem.version       = Rubia::Epubgen::VERSION
+
+  gem.add_dependency 'zipruby'
 end
